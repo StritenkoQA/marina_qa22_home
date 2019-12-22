@@ -33,6 +33,6 @@ public class LoginWiki {
 
     @AfterMethod
     public void tearDown() {
-
+        driver.quit();
     }
 }
